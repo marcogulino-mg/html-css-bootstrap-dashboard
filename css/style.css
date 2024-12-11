@@ -1,0 +1,13 @@
+/* HEADER */
+header .img-fluid {
+  max-width: 60px;
+}
+
+header .navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: rgb(255, 255, 255);
+}
+
+header .nav-link {
+  color: rgb(134, 136, 138);
+}
