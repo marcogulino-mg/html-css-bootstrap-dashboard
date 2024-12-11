@@ -20,3 +20,11 @@ header .nav-link {
     box-shadow: 0 0 0 0.1rem;
     color: rgb(255, 255, 255);
 }
+
+/* MAIN */
+
+/* TABLE */
+.fa-pencil, .fa-trash {
+    color: rgb(134, 136, 138);
+    cursor: pointer;
+}
