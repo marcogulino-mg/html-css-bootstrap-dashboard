@@ -11,3 +11,12 @@ header .navbar-nav .nav-link.active,
 header .nav-link {
   color: rgb(134, 136, 138);
 }
+
+.navbar-toggler {
+    border-color: rgb(134, 136, 138);
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.1rem;
+    color: rgb(255, 255, 255);
+}
