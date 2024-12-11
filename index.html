@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- HEADER -->
     <header>
       <nav class="navbar navbar-expand-lg bg-dark p-3">
         <div class="container-fluid">
@@ -93,7 +94,8 @@
 
     <!-- MAIN -->
     <div class="container-sm mt-4">
-      <div class="row align-items-center">
+      <!-- ROW 1.1-->
+      <div class="row align-items-center g-2 mt-4">
         <div class="col">
           <h2>Catalogo Libri</h2>
         </div>
@@ -102,8 +104,7 @@
             Aggiungi Libro
           </button>
         </div>
-      </div>
-      <div class="row align-items-center g-2 mt-4">
+        <!-- TABLE -->
         <table class="table">
             <thead>
               <tr>
@@ -224,7 +225,35 @@
               </tr>
             </tbody>
           </table>
-      </div>
+        <div class="row-cols-1 justify-content-center align-items-center g-2">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                      <h3>Todo</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                              <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                              <label class="form-check-label" for="firstCheckbox">Chiamare segreteria</label>
+                            </li>
+                            <li class="list-group-item">
+                              <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                              <label class="form-check-label" for="secondCheckbox">Mandare avvisi prestiti scaduti</label>
+                            </li>
+                            <li class="list-group-item">
+                              <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                              <label class="form-check-label" for="thirdCheckbox">Ordinare nuovi libri</label>
+                            </li>
+                          </ul>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+          
     </div>
   </body>
 </html>
