@@ -28,3 +28,8 @@ header .nav-link {
     color: rgb(134, 136, 138);
     cursor: pointer;
 }
+
+.accordion-item {
+    border: none;
+    border-bottom: solid 1px rgb(222, 226, 230);
+}
