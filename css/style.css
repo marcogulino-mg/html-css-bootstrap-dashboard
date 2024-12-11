@@ -23,6 +23,11 @@ header .nav-link {
 
 /* MAIN */
 
+/* ROW */
+#main-container .row{
+    font-size: 0.9rem;
+}
+
 /* TABLE */
 .fa-pencil, .fa-trash {
     color: rgb(134, 136, 138);
